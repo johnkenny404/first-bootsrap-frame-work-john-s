@@ -60,6 +60,7 @@ li {
 }
 #header .img {
     left: 50%;
+    overflow:hidden;
 }
 /*id=easy-bank section*/
 #easy-bank {
@@ -80,6 +81,50 @@ li {
 #easy-bank img {
     width: 70px;
 }
+#article h1 {
+    font-size: 1.5rem;
+    color:hsl(233, 26%, 24%) ;
+    margin-bottom: 2rem;
+}
+.card {
+    border: none;
+}
+.card img {
+    height: 13rem;
+}
+.card a {
+    visibility: visible;
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+}
+.card a:hover {
+    color: hsl(136, 65%, 51%);
+}
+/*footer*/
+#footer {
+    background: hsl(233, 26%, 24%);
+}
+.white-logo {
+    width: 150px;
+    margin-top: 1.5rem;
+}
+.social img {
+    width: 27px;
+    margin-right: .5rem;
+}
+.social:hover {
+    color: hsl(136, 65%, 51%);
+}
+#footer ul li {
+    margin: .5rem;
+}
+#footer ul a {
+    text-decoration: none;
+}
+#footer ul a:hover {
+    color:hsl(136, 65%, 51%);
+}
+
 /*Media Quary*/
 @media (max-width:768px){
     #header {
